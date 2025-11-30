@@ -9,8 +9,7 @@
   },
   "devDependencies": {
     "@jest-mock/express": "^1.4.5",
-    "jest": "^27.3.1",
-    "sqlite3": "^5.0.2"
+    "jest": "^27.3.1"
   },
   "keywords": [],
   "author": "",
@@ -19,5 +18,8 @@
     "express": "^4.17.1",
     "pg": "^8.7.1",
     "typeorm": "^0.2.38"
+  }
+  "overrides": {
+    "uuid": "^8.3.2"
   }
 }
